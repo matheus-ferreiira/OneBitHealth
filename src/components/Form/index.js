@@ -46,7 +46,7 @@ return (
             />
 
             <Button 
-                title="Calcular IMC" onPress={ () => imcValidation() }
+                title={ textButton } onPress={ () => imcValidation() }
             />
 
             <ResultImc messageResultImc={ messageImc } resultImc={ imc } />
